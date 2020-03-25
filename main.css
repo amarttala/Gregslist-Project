@@ -1,0 +1,159 @@
+/* nav-bar */
+/* gl-logo */
+/* nav-button */
+/* nav-link */
+
+/* search-section */
+/* search-label */
+/* search-field */
+/* search-button */
+
+/* pages */
+/* pages-button */
+/* pages-list */
+
+/* postings */
+/* post */
+/* post-date */
+/* post-name */
+/* post-location */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 80px;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+
+nav, section {
+	margin-bottom: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* NAV Bar */
+.nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	background-color: #EEEEEE;
+	border: 1px solid #DDDDDD;
+}
+
+.nav-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.nav-link {
+	font-size: 18px;
+	padding: 0 6px;
+}
+
+.gl-logo {
+	display: inline-block;
+	font-weight: 800;
+}
+
+.gl-logo h1 {
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	cursor:  pointer;
+}
+
+/* Search */
+.search-section .search-label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.search-section .search-field,
+.search-section .search-button {
+	display: inline-block;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+
+.search-section input {
+	font-size: 16px;
+	font-weight: 500;
+	width: 400px;
+	height: 30px;
+	padding: 0 5px 0 8px;
+}
+
+.search-section .search-button {
+	width: 37px;
+	height: 30px;
+	padding: 2px 6px 3px 6px;
+	background-color: #FFFFFF;
+	vertical-align: bottom;
+}
+
+
+/* Page Information and Buttons */
+.pages {
+	display: inline-block;
+	font-size: 0;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+
+.pages-button,
+.pages-list {
+	display: inline-block;
+	font-size: 16px;
+	padding: 8px 25px;
+}
+
+.pages-list {
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+
+/* Postings */
+.postings {
+	padding: 0;
+}
+
+.post {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.post-date,
+.post-location {
+	color: #808080;
+}
+
+.post-name {
+	font-weight: 700;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
